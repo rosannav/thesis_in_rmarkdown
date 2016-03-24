@@ -49,14 +49,3 @@ header-includes:
 ```{r child = 'chapter4.Rmd'}
 ```
 
-\FloatBarrier
-
-\newpage
-\listoffigures
-
-\newpage
-\listoftables
-
-\newpage
-
-# References
