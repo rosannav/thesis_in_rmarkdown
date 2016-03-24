@@ -1,0 +1,62 @@
+---
+output:
+  pdf_document:
+    fig_caption: yes
+bibliography: library_handmade.bib
+header-includes:
+- \usepackage{placeins}
+---
+
+
+```{r child = 'titlepage.Rmd'}
+```
+
+\newpage
+
+```{r child = 'declaration.Rmd'}
+```
+
+\newpage
+
+```{r child = 'abstract.Rmd'}
+```
+
+\newpage
+
+```{r child = 'acknowledgements.Rmd'}
+```
+
+\newpage
+
+```{r child = 'chapter1.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter2.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter3.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter4.Rmd'}
+```
+
+\FloatBarrier
+
+\newpage
+\listoffigures
+
+\newpage
+\listoftables
+
+\newpage
+
+# References
