@@ -3,7 +3,7 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-bibliography: library_handmade.bib
+bibliography: library.bib
 header-includes:
 - \usepackage{placeins}
 ---
