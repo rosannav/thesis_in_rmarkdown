@@ -1,0 +1,73 @@
+---
+output:
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+bibliography: library_handmade.bib
+header-includes:
+- \usepackage{placeins}
+---
+
+
+```{r child = 'titlepage.Rmd'}
+```
+
+\newpage
+
+```{r child = 'declaration.Rmd'}
+```
+
+\newpage
+\addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
+
+```{r child = 'abstract.Rmd'}
+```
+
+\newpage
+\addcontentsline{toc}{section}{Acknowledgements}
+\section*{Acknowledgements}
+
+```{r child = 'acknowledgements.Rmd'}
+```
+
+\newpage
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\newpage
+
+```{r child = 'chapter1.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter2.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter3.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+
+```{r child = 'chapter4.Rmd'}
+```
+
+\FloatBarrier
+
+\newpage
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\newpage
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+\newpage
+
+# References
