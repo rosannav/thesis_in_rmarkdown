@@ -19,13 +19,14 @@ Author Name
 
 
 \normalsize
-Submitted in partial fulfilment of the requirements of the degree of Master of Science 
+Submitted in partial fulfilment of the requirements of the degree of ...
+
 Month Year
 
 \vspace{3 cm}
 
 \normalsize
-School/Department
+School of ...
 
 \normalsize
 University
