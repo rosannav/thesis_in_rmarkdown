@@ -2,7 +2,7 @@
 output:
   pdf_document:
     fig_caption: yes
-bibliography: library_handmade.bib
+bibliography: library.bib
 header-includes:
 - \usepackage{placeins}
 ---
