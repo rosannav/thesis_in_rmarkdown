@@ -1,0 +1,8 @@
+---
+output: pdf_document
+---
+
+# Discussion
+
+Finally, the discussion. We had a look at headings and citations in the introduction, an equation in the methods and figures, r code and tables in the results. That's it. What will follow now is the list of tables, list of figures, appendices and references.
+

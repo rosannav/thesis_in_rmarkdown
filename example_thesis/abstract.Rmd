@@ -1,0 +1,6 @@
+---
+output: pdf_document
+---
+
+This is an example thesis made with R Markdown.
+

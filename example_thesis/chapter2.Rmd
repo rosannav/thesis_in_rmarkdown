@@ -1,0 +1,16 @@
+---
+output: pdf_document
+---
+
+# Methods
+
+In \autoref{label1} we had look at citations and headings. What about some equations? Let's put one here: 
+
+\begin{equation}
+\label{eq-abc}
+a + b = c
+\end{equation}
+
+You can also write it inline: $a + b = c$ or use the $-signs to refer to a symbol, for example: $a$ is distance (m).
+
+To refer to the equation in text, you can write: see equation \ref{eq-abc}. If you use the autoref command, it will automatically specify what kind of LaTeX object you are referring to, for example: see \autoref{eq-abc}.

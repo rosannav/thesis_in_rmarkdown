@@ -1,0 +1,34 @@
+---
+output: pdf_document
+---
+
+\begin{centering}
+
+\vspace{3 cm}
+
+\Huge
+
+{\bf Thesis title}
+
+\vspace{3 cm}
+
+\Large
+Author Name
+
+\vspace{3 cm}
+
+
+\normalsize
+Submitted in partial fulfilment of the requirements of the degree of ...
+
+Month Year
+
+\vspace{3 cm}
+
+\normalsize
+School of ...
+
+\normalsize
+University
+
+\end{centering}

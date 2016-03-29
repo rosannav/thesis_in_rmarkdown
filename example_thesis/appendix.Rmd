@@ -1,0 +1,18 @@
+---
+output: pdf_document
+---
+
+\appendix
+\section{Appendices}
+
+\subsection{Appendix stuff}
+
+Relabelling the appendix can be a bit tricky. Here I used the standard \LaTeX syntax '\\appendix', and using LaTeX labels for sections instead of R Markdown syntax (i.e. using '\\section' and '\\subsection' instead of '#' and '##'). This automatically produces labels 'A.1', 'A.2', etc. I came up with doing it this way during the last two days before handing in my thesis, so I'm sure this is not the most elegant way of dealing with the appendices, but it works.
+
+
+\subsection{Code example}
+
+```{r, eval=FALSE, echo=TRUE}
+By setting eval = FALSE and echo = TRUE, 
+the actual code will be displayed but not run.
+```

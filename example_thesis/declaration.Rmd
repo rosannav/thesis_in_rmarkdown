@@ -1,0 +1,10 @@
+---
+output: pdf_document
+---
+
+**Declaration**
+
+This is to certify that
+
+i. The thesis comprises only my original work except where indicated,
+ii. Due acknowledgement has been made in the text to all other material used.

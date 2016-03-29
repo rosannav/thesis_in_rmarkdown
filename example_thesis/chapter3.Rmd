@@ -1,0 +1,50 @@
+---
+output: pdf_document
+---
+
+# Results
+
+## R code output
+
+The beauty of R Markdown: including your data analysis directly in the thesis, so that you update as you go.
+
+```{r}
+variable_t = 3 * 4
+```
+
+Variable_t has a value of: `r variable_t`. Note the use of backticks instead of quotations marks. Backticks can also be used to write code-like text: `here is some code` or even do a quick calculation (3 * 6 = : `r 3*6` ).
+
+And of course, let's make a plot. You can refer to it in text as normal: see figure \ref{irisgraph}.
+
+```{r fig.cap = "Figure caption. \\label{irisgraph}", fig.height=4, fig.width=4}
+plot(iris)
+```
+
+
+## Tables
+
+This is a \LaTeX  table in an R Markdown document:
+
+\begin{table}
+\centering
+\caption{This is a table with info}
+\label{table-paramvalues}
+\begin{tabular}{ p{4cm} p{4cm} p{4cm} }
+\hline \\ [-1.5ex]
+colname & colname & colname \\ [1ex]
+\hline \\ [-1.5ex]
+Info & info & info \\ [1ex]
+Info & info & info \\ [1ex]
+Info & info & info \\ [1ex]
+\hline
+\end{tabular}
+\end{table}
+
+Personally, I prefer \LaTeX tables over R Markdown tables, because you can tweak them a bit more.
+
+## Figures
+
+And of course, we can also inlude figures (see figure \ref{figurelabel}).
+
+![This is a figure caption for this beautiful green creation. \label{figurelabel}](figure1.png)
+
