@@ -1,3 +1,5 @@
+Note: these are old blog posts that I wrote in 2016
+
 Writing your thesis with R Markdown (1) – Getting started
 =========================================================
 
